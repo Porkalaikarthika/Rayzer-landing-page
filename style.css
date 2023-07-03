@@ -121,14 +121,13 @@ section p {
 
 .bonus {
     font-size: 1.3rem;
-    background-color: #7a7979;
-    color: #fff;
+    background-color: #e9e5e5;    
     text-align: center;
     width: 100%;
 }
 
 .bonus h3 {
-    color: #0c81bb;
+    color: #44729d;
 }
 
 .course-details ul {
