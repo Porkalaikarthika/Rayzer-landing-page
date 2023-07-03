@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 3rem;
+    background-color: #237eac;
+    color: #fff;
+    padding: 4%;
+    
+}
+
+header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+.attention {
+    text-align: center;
+}
+
+section {
+    padding: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+.center-content {
+    text-align: center;
+    color: #44729d;
+    font-size: 2rem;
+}
+
+.imagine {
+    background-color: #638bb1;
+    color: #fff;
+    text-align: center;
+}
+
+.imagine ul {
+    list-style-type: none;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.guess {
+    font-weight: 600;
+}
+
+.not-scheme {
+    color: red;
+}
+
+.benefit {
+    color: #4CAF50;
+}
+
+.center {
+    text-align: center;
+}
+
+.good-news {
+    background-color: #e9e6e6;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+}
+
+.good-news-list {
+    text-align: justify;
+}
+
+.fact {
+    font-size: 1.5rem;
+    background-color: #44729d;
+    color: #fff;
+}
+
+.bonus-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* justify-items: center;   
+    text-align: center;  */
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.bonus {
+    font-size: 1.3rem;
+    background-color: #7a7979;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.bonus h3 {
+    color: #0c81bb;
+}
+
+.course-details ul {
+    list-style-type: disc;
+    margin-left: 2rem;
+}
+
+.order {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.order .timer {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.order .ebook-price {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.order .discount {
+    font-size: 1rem;
+    color: #888;
+    margin-bottom: 1rem;
+}
+
+.access-button {
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    margin: 1%;    
+}
+
+.invest {
+    text-align: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: circle;
+    padding: 0;
+}
+
+.btn-link {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #1abc9c;
+    color: #fff;
+    text-decoration: none;
+    /* font-weight: bold; */
+    border-radius: 4px;
+}
+
+.offer-lasts {
+    font-size: 1rem;    
+    margin-top: 1rem;
+    margin: 1%;
+}
+
+.reviews {
+    margin-bottom: 3rem;
+}
+
+.cta {
+    text-align: center;
+}
+
+.final-offer {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.cta .final-price {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.cta .in-doubt {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.cta .in-doubt-question {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.cta .cta-button {
+    font-size: 1.2rem;
+    /* font-weight: bold; */
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 5px;    
+}
+
+.cta .satisfaction {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.cta .guarantee {
+    font-size: 1.1rem;
+    color: #888;
+    margin-bottom: 1rem;
+}
+
+.cta .enroll-button {
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
