@@ -44,8 +44,8 @@ header p {
 
 section {
     padding: 2rem;
-    margin-left: 10%;
-    margin-right: 10%;
+    /* margin-left: 10%;
+    margin-right: 10%; */
 }
 
 section h2 {
@@ -64,9 +64,11 @@ section p {
 }
 
 .imagine {
+    margin: 0 2%;
     background-color: #638bb1;
     color: #fff;
     text-align: center;
+    border-radius: 5px;
 }
 
 .imagine ul {
@@ -96,6 +98,7 @@ section p {
     border-radius: 5px;
     justify-content: center;
     text-align: center;
+    margin: 0 2%;
 }
 
 .good-news-list {
