@@ -7,10 +7,72 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
+    background-color: #fff;
     color: #333;
     line-height: 1.6;
+    font-size: 1.1em;
+}
 
+p, li {
+    /* text-align: justify; */
+}
+
+.p-2 {
+    padding: 2em;
+}
+
+.pt-2 {
+    padding-top: 2em;
+}
+
+.p-2 {
+    padding-top: 2em;
+}
+
+.mt-2 {
+    margin-top: 2em;
+}
+
+.mb-2 {
+    margin-bottom: 2em;
+}
+
+.mt-4 {
+    margin-top: 4em;
+}
+
+.mb-4 {
+    margin-bottom: 4em;
+}
+
+.fade {
+    color: #969696;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.space-out {
+    line-height: 1.7em;
+}
+
+.bg-primary {
+    background-color: #44729d;
+    color: #fff;
+}
+
+.text-primary {
+    color: #44729d;
+}
+
+.text-warning {
+    color: #f1f90a;;
+}
+
+.bold {
+    font-size: larger;
 }
 
 .container {
@@ -25,7 +87,7 @@ header {
     margin-bottom: 3rem;
     background-color: #237eac;
     color: #fff;
-    padding: 4%;
+    padding: 2em;
     
 }
 
@@ -43,7 +105,7 @@ header p {
 }
 
 section {
-    padding: 2rem;
+    padding: 0 2rem;
     /* margin-left: 10%;
     margin-right: 10%; */
 }
@@ -64,10 +126,11 @@ section p {
 }
 
 .imagine {
-    margin: 0 2%;
-    background-color: #638bb1;
-    color: #fff;
-    text-align: center;
+    margin: 2em 0;
+    padding: 2em 1em;
+    /* background-color: #638bb1; */
+    background-color: #f4f4f4;
+    /* text-align: center; */
     border-radius: 5px;
 }
 
@@ -86,7 +149,8 @@ section p {
 }
 
 .benefit {
-    color: #4CAF50;
+    /* color: #4CAF50; */
+    color: #4195cc;
 }
 
 .center {
@@ -119,7 +183,7 @@ section p {
     /* justify-items: center;   
     text-align: center;  */
     gap: 2rem;
-    margin-bottom: 2rem;
+    margin: 4rem 0;
 }
 
 .bonus {
@@ -127,6 +191,7 @@ section p {
     background-color: #e9e5e5;    
     text-align: center;
     width: 100%;
+    padding: 1em;
 }
 
 .bonus h3 {
@@ -144,9 +209,10 @@ section p {
 }
 
 .order .timer {
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-weight: bold;
     margin-bottom: 1rem;
+    color: #4CAF50;
 }
 
 .order .ebook-price {
@@ -182,6 +248,27 @@ section p {
     padding: 0;
 }
 
+.list-circle {
+    list-style: circle;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.list-left {
+    text-align: left;
+    max-width: 680px;
+    padding: 0 1em;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .btn-link {
     display: inline-block;
     padding: 1rem 2rem;
@@ -193,9 +280,16 @@ section p {
 }
 
 .offer-lasts {
-    font-size: 1rem;    
+    font-size: 1.5rem;    
     margin-top: 1rem;
     margin: 1%;
+    color: #237eac;
+}
+
+.offer-lasts-amount {
+    padding: 0 0.5em;
+    background-color: #237eac;
+    color: #fff;
 }
 
 .reviews {
@@ -207,7 +301,7 @@ section p {
 }
 
 .final-offer {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 0.5rem;
 }
 
