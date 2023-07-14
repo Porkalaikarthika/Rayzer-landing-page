@@ -81,6 +81,11 @@ p, li {
     padding: 2rem;
 }
 
+.author {
+    border: solid 2px #40b7ca;
+    max-width: 320px;
+    border-radius: 0.1em;
+}
 
 header {
     text-align: center;
