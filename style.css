@@ -87,6 +87,18 @@ p, li {
     border-radius: 0.1em;
 }
 
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .col-md-3 {
+        width: 32%;
+    }
+}
 header {
     text-align: center;
     margin-bottom: 3rem;
@@ -191,12 +203,15 @@ section p {
     margin: 4rem 0;
 }
 
-.bonus {
+.bonus, .bonus-more{
     font-size: 1.3rem;
     background-color: #e9e5e5;    
     text-align: center;
-    width: 100%;
     padding: 1em;
+}
+
+.bonus {
+    width: 100%;
 }
 
 .bonus h3 {
