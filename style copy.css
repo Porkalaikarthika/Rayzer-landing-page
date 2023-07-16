@@ -13,9 +13,6 @@ body {
     line-height: 1.6;
     font-size: 1.1em;
 }
-ol {
-    padding: revert;
-}
 
 p, li {
     /* text-align: justify; */
@@ -97,22 +94,14 @@ p, li {
     justify-content: center;
 }
 
-section {
-    padding: 2em 5% !important;
-}
-
 @media only screen and (min-width: 768px) {
     .col-md-3 {
         width: 32%;
     }
-    
-    section {
-        padding: 2em 10% !important;
-    }
-
 }
 header {
     text-align: center;
+    margin-bottom: 3rem;
     background-color: #237eac;
     color: #fff;
     padding: 2em;
@@ -126,6 +115,16 @@ header h1 {
 
 header p {
     font-size: 16px;
+}
+
+.attention {
+    text-align: center;
+}
+
+section {
+    padding: 0 2rem;
+    /* margin-left: 10%;
+    margin-right: 10%; */
 }
 
 section h2 {
@@ -144,6 +143,8 @@ section p {
 }
 
 .imagine {
+    margin: 2em 0;
+    padding: 2em 1em;
     /* background-color: #638bb1; */
     background-color: #f4f4f4;
     /* text-align: center; */
@@ -176,7 +177,9 @@ section p {
 .good-news {
     background-color: #e9e6e6;
     border-radius: 5px;
+    justify-content: center;
     text-align: center;
+    margin: 0 2%;
 }
 
 .good-news-list {
@@ -222,6 +225,7 @@ section p {
 
 .order {
     text-align: center;
+    margin-bottom: 3rem;
 }
 
 .order .timer {
@@ -254,7 +258,6 @@ section p {
 
 .invest {
     text-align: center;
-    padding-top: unset !important;
 }
 
 .list {
@@ -310,6 +313,7 @@ section p {
 }
 
 .reviews {
+    margin-bottom: 3rem;
 }
 
 .cta {
@@ -365,23 +369,4 @@ section p {
     padding: 1rem 2rem;
     border-radius: 5px;
     cursor: pointer;
-}
-
-.dev {
-    color: darkgray;
-    text-decoration: none;
-}
-
-.pb-0 {
-    padding-bottom: unset;
-}
-
-.pb-1 {
-    padding-bottom: 1em !important;
-}
-
-.hr-sm {
-    max-width: 3em;
-    color: #f1f90a;
-    margin: 0 auto;
 }
