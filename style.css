@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f4f4f4; */
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+ol {
+    padding: revert;
+}
+
+p, li {
+    /* text-align: justify; */
+}
+
+.p-2 {
+    padding: 2em;
+}
+
+.pt-2 {
+    padding-top: 2em;
+}
+
+.p-2 {
+    padding-top: 2em;
+}
+
+.mt-2 {
+    margin-top: 2em;
+}
+
+.mb-2 {
+    margin-bottom: 2em;
+}
+
+.mt-4 {
+    margin-top: 4em;
+}
+
+.mb-4 {
+    margin-bottom: 4em;
+}
+
+.fade {
+    color: #969696;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.space-out {
+    line-height: 1.7em;
+}
+
+.bg-primary {
+    background-color: #44729d;
+    color: #fff;
+}
+
+.text-primary {
+    color: #44729d;
+}
+
+.text-warning {
+    color: #f1f90a;;
+}
+
+.bold {
+    font-size: larger;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.author {
+    border: solid 2px #40b7ca;
+    max-width: 320px;
+    border-radius: 0.1em;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+}
+
+section {
+    padding: 2em 5% !important;
+}
+
+@media only screen and (min-width: 768px) {
+    .col-md-3 {
+        width: 32%;
+    }
+    
+    section {
+        padding: 2em 10% !important;
+    }
+
+}
+header {
+    text-align: center;
+    background-color: #237eac;
+    color: #fff;
+    padding: 2em;
+    
+}
+
+header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+.center-content {
+    text-align: center;
+    color: #44729d;
+    font-size: 2rem;
+}
+
+.imagine {
+    /* background-color: #638bb1; */
+    background-color: #f4f4f4;
+    /* text-align: center; */
+    border-radius: 5px;
+}
+
+.imagine ul {
+    list-style-type: none;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.guess {
+    font-weight: 600;
+}
+
+.not-scheme {
+    color: red;
+}
+
+.benefit {
+    /* color: #4CAF50; */
+    color: #4195cc;
+}
+
+.center {
+    text-align: center;
+}
+
+.good-news {
+    background-color: #e9e6e6;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.good-news-list {
+    text-align: justify;
+}
+
+.fact {
+    font-size: 1.5rem;
+    background-color: #44729d;
+    color: #fff;
+}
+
+.bonus-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* justify-items: center;   
+    text-align: center;  */
+    gap: 2rem;
+    margin: 4rem 0;
+}
+
+.bonus, .bonus-more{
+    font-size: 1.3rem;
+    background-color: #e9e5e5;    
+    text-align: center;
+    padding: 1em;
+}
+
+.bonus {
+    width: 100%;
+}
+
+.bonus h3 {
+    color: #44729d;
+}
+
+.course-details ul {
+    list-style-type: disc;
+    margin-left: 2rem;
+}
+
+.order {
+    text-align: center;
+}
+
+.order .timer {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #4CAF50;
+}
+
+.order .ebook-price {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.order .discount {
+    font-size: 1rem;
+    color: #888;
+    margin-bottom: 1rem;
+}
+
+.access-button {
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    margin: 1%;    
+}
+
+.invest {
+    text-align: center;
+    padding-top: unset !important;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: circle;
+    padding: 0;
+}
+
+.list-circle {
+    list-style: circle;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.list-left {
+    text-align: left;
+    max-width: 680px;
+    padding: 0 1em;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-link {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #1abc9c;
+    color: #fff;
+    text-decoration: none;
+    /* font-weight: bold; */
+    border-radius: 4px;
+}
+
+.offer-lasts {
+    font-size: 1.5rem;    
+    margin-top: 1rem;
+    margin: 1%;
+    color: #237eac;
+}
+
+.offer-lasts-amount {
+    padding: 0 0.5em;
+    background-color: #237eac;
+    color: #fff;
+}
+
+.reviews {
+}
+
+.cta {
+    text-align: center;
+}
+
+.final-offer {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.cta .final-price {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.cta .in-doubt {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.cta .in-doubt-question {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.cta .cta-button {
+    font-size: 1.2rem;
+    /* font-weight: bold; */
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 5px;    
+}
+
+.cta .satisfaction {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.cta .guarantee {
+    font-size: 1.1rem;
+    color: #888;
+    margin-bottom: 1rem;
+}
+
+.cta .enroll-button {
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dev {
+    color: darkgray;
+    text-decoration: none;
+}
+
+.pb-0 {
+    padding-bottom: unset;
+}
+
+.pb-1 {
+    padding-bottom: 1em !important;
+}
+
+.hr-sm {
+    max-width: 3em;
+    color: #f1f90a;
+    margin: 0 auto;
+}
